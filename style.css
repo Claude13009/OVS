@@ -1,0 +1,98 @@
+/* -------------- barre navigation --------- */
+
+@font-face {
+    font-family: "Abang";
+    src: url("/OVS/SITE\ 1H/Abang.otf") format("woff2");
+}
+body
+{
+    background: rgb(4,3,5);
+    background: radial-gradient(circle, rgba(4,3,5,1) 0%, rgba(172,58,58,1) 47%, rgba(19,20,20,1) 100%);
+}
+
+
+nav li
+{
+  margin: 0 10px;
+  list-style: none;
+}
+
+span
+{
+    color: red ;
+}
+
+h1
+{
+    font-size: 150px;
+    margin: auto;
+    font-family: Abang;
+}
+
+h2
+{
+    font-size: 30px;
+    font-family: Abang;
+}
+
+li:hover
+{
+    color: red;
+    transition:5ms;
+
+}
+
+/* ----------------- raccoucis -------------- */
+
+.color
+{
+    color: white;
+    background-color: black;
+}
+
+.fa-snapchat-ghost
+{
+    color: #fffc00;
+}
+
+
+.border
+{
+    border: 1px solid black;
+
+}
+
+.flex
+{
+    display: flex;
+}
+
+.alignCenter
+{
+    align-items: center;
+}
+
+.justifyCenter
+{
+    justify-content: center;
+}
+
+.justifySB
+{
+    justify-content: space-between;
+}
+
+.flexDirectionC
+{
+    flex-direction: column;
+}
+
+.logo
+{
+    font-size: 30px;
+}
+
+.banner
+{
+    height: 40vh;
+}
